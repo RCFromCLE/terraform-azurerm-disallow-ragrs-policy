@@ -4,6 +4,8 @@ terraform-azurerm-disallow-ragrs-policy
 
 This Terraform module creates an Azure policy definition that disallows the creation of storage accounts with the Standard_RAGRS sku type unless they have the appropriate exemption tag. The policy definition can be assigned to a management group or subscription. Current exemption tag is "Exempt: Disallow Standard_RAGRS".
 
+https://rudycorradetti.com/2023/05/12/terraform-azurerm-disallow-ragrs-policy-a-terraform-module-to-prevent-or-audit-the-creation-of-standard_ragrs-storage-accounts/
+
 
 Inputs
 ------
