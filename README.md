@@ -31,7 +31,6 @@ module "disallow_ragrs_policy" {
   # version = "1.0.0"
   # policy effect - default is auditIfNotExists. Comment out the line below to use the default value.
   policy_effect = "deny"
-  # Littler management group id
   # management_group_id = "/providers/Microsoft.Management/managementGroups/Your_Management_Group_ID"
 }
 
