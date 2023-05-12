@@ -28,6 +28,7 @@ Usage
 -----
 
 ```hcl
+# Deploy policy definition in deny mode
 module "disallow_ragrs_policy" {
   source  = "./terraform-azurerm-disallow-ragrs-policy"
   # version = "1.0.0"
